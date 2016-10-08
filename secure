@@ -1,0 +1,190 @@
+Jul  2 12:46:03 localhost polkitd[719]: Loading rules from directory /etc/polkit-1/rules.d
+Jul  2 12:46:03 localhost polkitd[719]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jul  2 12:46:03 localhost polkitd[719]: Finished loading, compiling and executing 2 rules
+Jul  2 12:46:03 localhost polkitd[719]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Jul  2 12:46:03 localhost sshd[1004]: Server listening on 0.0.0.0 port 22.
+Jul  2 12:46:03 localhost sshd[1004]: Server listening on :: port 22.
+Jul  2 12:52:26 localhost login: pam_unix(login:auth): check pass; user unknown
+Jul  2 12:52:26 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jul  2 12:52:28 localhost login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jul  2 12:52:30 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul  2 12:52:30 localhost login: ROOT LOGIN ON tty1
+Jul  2 13:00:23 localhost polkitd[1771]: Loading rules from directory /etc/polkit-1/rules.d
+Jul  2 13:00:23 localhost polkitd[1771]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jul  2 13:00:23 localhost polkitd[1771]: Finished loading, compiling and executing 2 rules
+Jul  2 13:00:23 localhost polkitd[1771]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Jul  2 13:01:23 localhost sshd[1004]: Received signal 15; terminating.
+Jul  2 13:01:23 localhost sshd[2546]: Server listening on 0.0.0.0 port 22.
+Jul  2 13:01:23 localhost sshd[2546]: Server listening on :: port 22.
+Jul  2 13:04:34 localhost polkitd[1771]: Registered Authentication Agent for unix-process:11722:111863 (system bus name :1.22 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul  2 13:04:34 localhost login: pam_unix(login:session): session closed for user root
+Jul  2 13:04:34 localhost sshd[2546]: Received signal 15; terminating.
+Jul  2 13:06:04 localhost login: pam_unix(login:auth): check pass; user unknown
+Jul  2 13:06:04 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jul  2 13:06:05 localhost login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jul  2 13:06:07 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul  2 13:06:07 localhost login: ROOT LOGIN ON tty1
+Jul  2 13:06:23 localhost unix_chkpwd[1336]: password check failed for user (root)
+Jul  2 13:06:23 localhost sshd[1334]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.29  user=root
+Jul  2 13:06:23 localhost sshd[1334]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Jul  2 13:06:24 localhost sshd[1334]: Failed password for root from 192.168.88.29 port 52316 ssh2
+Jul  2 13:06:24 localhost sshd[1334]: Connection closed by 192.168.88.29 [preauth]
+Jul  2 13:06:26 localhost sshd[1337]: Accepted password for root from 192.168.88.29 port 52325 ssh2
+Jul  2 13:06:26 localhost sshd[1337]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul  2 13:06:29 localhost sshd[1337]: Received disconnect from 192.168.88.29: 11: disconnected by user
+Jul  2 13:06:29 localhost sshd[1337]: pam_unix(sshd:session): session closed for user root
+Jul  2 13:06:49 localhost sshd[1355]: Accepted password for root from 192.168.88.29 port 52372 ssh2
+Jul  2 13:06:50 localhost sshd[1355]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Sep 27 11:36:43 localhost polkitd[686]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 27 11:36:43 localhost polkitd[686]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 27 11:36:43 localhost polkitd[686]: Finished loading, compiling and executing 2 rules
+Sep 27 11:36:43 localhost polkitd[686]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 27 11:36:49 localhost sshd[1193]: Server listening on 0.0.0.0 port 22.
+Sep 27 11:36:49 localhost sshd[1193]: Server listening on :: port 22.
+Sep 27 11:36:51 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep 27 11:36:51 localhost login: ROOT LOGIN ON tty1
+Sep 27 11:54:46 localhost useradd[1488]: failed adding user 'dbus', exit code: 9
+Sep 27 11:59:56 localhost polkitd[686]: Registered Authentication Agent for unix-process:28680:139765 (system bus name :1.18 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 28 11:02:44 localhost polkitd[685]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 28 11:02:44 localhost polkitd[685]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 28 11:02:44 localhost polkitd[685]: Finished loading, compiling and executing 2 rules
+Sep 28 11:02:44 localhost polkitd[685]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 28 11:02:50 localhost sshd[1196]: Server listening on 0.0.0.0 port 22.
+Sep 28 11:02:50 localhost sshd[1196]: Server listening on :: port 22.
+Sep 28 11:16:45 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep 28 11:16:45 localhost login: ROOT LOGIN ON tty1
+Sep 28 11:33:57 localhost polkitd[685]: Registered Authentication Agent for unix-process:1360:187888 (system bus name :1.15 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 28 11:33:58 localhost polkitd[685]: Unregistered Authentication Agent for unix-process:1360:187888 (system bus name :1.15, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 28 11:34:01 localhost polkitd[685]: Registered Authentication Agent for unix-process:1377:188251 (system bus name :1.16 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 28 11:34:01 localhost polkitd[685]: Unregistered Authentication Agent for unix-process:1377:188251 (system bus name :1.16, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 28 11:34:02 localhost polkitd[685]: Registered Authentication Agent for unix-process:1468:188369 (system bus name :1.17 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 28 11:34:02 localhost login: pam_unix(login:session): session closed for user root
+Sep 29 12:25:12 localhost polkitd[625]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 29 12:25:12 localhost polkitd[625]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 29 12:25:12 localhost polkitd[625]: Finished loading, compiling and executing 2 rules
+Sep 29 12:25:12 localhost polkitd[625]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 29 12:25:18 localhost sshd[838]: Server listening on 0.0.0.0 port 22.
+Sep 29 12:25:18 localhost sshd[838]: Server listening on :: port 22.
+Sep 29 12:25:30 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep 29 12:25:30 localhost login: ROOT LOGIN ON tty1
+Sep 29 12:25:53 localhost polkitd[625]: Registered Authentication Agent for unix-process:964:4536 (system bus name :1.14 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 29 12:25:53 localhost sshd[838]: Received signal 15; terminating.
+Sep 29 12:25:53 localhost login: pam_unix(login:session): session closed for user root
+Sep 29 12:26:02 localhost polkitd[621]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 29 12:26:02 localhost polkitd[621]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 29 12:26:02 localhost polkitd[621]: Finished loading, compiling and executing 2 rules
+Sep 29 12:26:02 localhost polkitd[621]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 29 12:26:08 localhost sshd[833]: Server listening on 0.0.0.0 port 22.
+Sep 29 12:26:08 localhost sshd[833]: Server listening on :: port 22.
+Sep 29 12:26:16 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep 29 12:26:16 localhost login: ROOT LOGIN ON tty1
+Sep 29 12:30:47 localhost polkitd[621]: Registered Authentication Agent for unix-process:980:28794 (system bus name :1.14 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 29 12:30:47 localhost sshd[833]: Received signal 15; terminating.
+Sep 29 12:30:47 localhost login: pam_unix(login:session): session closed for user root
+Sep 29 12:30:55 localhost polkitd[620]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 29 12:30:55 localhost polkitd[620]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 29 12:30:55 localhost polkitd[620]: Finished loading, compiling and executing 2 rules
+Sep 29 12:30:55 localhost polkitd[620]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 29 12:31:01 localhost sshd[832]: Server listening on 0.0.0.0 port 22.
+Sep 29 12:31:01 localhost sshd[832]: Server listening on :: port 22.
+Sep 29 12:31:03 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep 29 12:31:03 localhost login: ROOT LOGIN ON tty1
+Sep 29 12:31:06 localhost polkitd[620]: Registered Authentication Agent for unix-process:952:1481 (system bus name :1.14 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 30 05:14:44 localhost polkitd[618]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 30 05:14:44 localhost polkitd[618]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 30 05:14:44 localhost polkitd[618]: Finished loading, compiling and executing 2 rules
+Sep 30 05:14:44 localhost polkitd[618]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 30 05:14:49 localhost sshd[816]: Server listening on 0.0.0.0 port 22.
+Sep 30 05:14:49 localhost sshd[816]: Server listening on :: port 22.
+Sep 30 05:15:15 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep 30 05:15:15 localhost login: ROOT LOGIN ON tty1
+Sep 30 05:15:48 localhost sshd[938]: Invalid user ROOT from 192.168.1.7
+Sep 30 05:15:48 localhost sshd[938]: input_userauth_request: invalid user ROOT [preauth]
+Sep 30 05:15:55 localhost sshd[938]: Connection closed by 192.168.1.7 [preauth]
+Sep 30 05:15:58 localhost sshd[940]: Accepted password for root from 192.168.1.7 port 54488 ssh2
+Sep 30 05:15:58 localhost sshd[940]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct  6 11:46:14 localhost polkitd[617]: Loading rules from directory /etc/polkit-1/rules.d
+Oct  6 11:46:14 localhost polkitd[617]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct  6 11:46:14 localhost polkitd[617]: Finished loading, compiling and executing 2 rules
+Oct  6 11:46:14 localhost polkitd[617]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct  6 11:46:20 localhost sshd[819]: Server listening on 0.0.0.0 port 22.
+Oct  6 11:46:20 localhost sshd[819]: Server listening on :: port 22.
+Oct  6 11:46:24 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct  6 11:46:24 localhost login: ROOT LOGIN ON tty1
+Oct  6 11:46:50 localhost sshd[939]: Accepted password for root from 192.168.0.101 port 52794 ssh2
+Oct  6 11:46:50 localhost sshd[939]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct  6 11:47:16 localhost polkitd[617]: Registered Authentication Agent for unix-process:972:7609 (system bus name :1.16 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  6 11:47:38 jenkins polkitd[621]: Loading rules from directory /etc/polkit-1/rules.d
+Oct  6 11:47:38 jenkins polkitd[621]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct  6 11:47:38 jenkins polkitd[621]: Finished loading, compiling and executing 2 rules
+Oct  6 11:47:38 jenkins polkitd[621]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct  6 11:47:43 jenkins sshd[818]: Server listening on 0.0.0.0 port 22.
+Oct  6 11:47:43 jenkins sshd[818]: Server listening on :: port 22.
+Oct  6 11:47:54 jenkins sshd[918]: Accepted password for root from 192.168.0.101 port 52795 ssh2
+Oct  6 11:47:54 jenkins sshd[918]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct  6 12:17:37 jenkins groupadd[1030]: group added to /etc/group: name=jenkins, GID=994
+Oct  6 12:17:37 jenkins groupadd[1030]: group added to /etc/gshadow: name=jenkins
+Oct  6 12:17:37 jenkins groupadd[1030]: new group: name=jenkins, GID=994
+Oct  6 12:17:37 jenkins useradd[1034]: new user: name=jenkins, UID=996, GID=994, home=/var/lib/jenkins, shell=/bin/false
+Oct  6 12:18:37 jenkins polkitd[621]: Registered Authentication Agent for unix-process:1060:187327 (system bus name :1.16 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  6 12:18:37 jenkins runuser: pam_unix(runuser:session): session opened for user jenkins by (uid=0)
+Oct  6 12:18:37 jenkins runuser: pam_unix(runuser:session): session closed for user jenkins
+Oct  6 12:18:37 jenkins polkitd[621]: Unregistered Authentication Agent for unix-process:1060:187327 (system bus name :1.16, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct  6 12:23:44 jenkins polkitd[621]: Registered Authentication Agent for unix-process:1159:218091 (system bus name :1.17 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  6 12:23:44 jenkins runuser: pam_unix(runuser:session): session opened for user jenkins by (uid=0)
+Oct  6 12:23:45 jenkins runuser: pam_unix(runuser:session): session closed for user jenkins
+Oct  6 12:23:45 jenkins polkitd[621]: Unregistered Authentication Agent for unix-process:1159:218091 (system bus name :1.17, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct  7 11:59:13 jenkins polkitd[619]: Loading rules from directory /etc/polkit-1/rules.d
+Oct  7 11:59:13 jenkins polkitd[619]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct  7 11:59:13 jenkins polkitd[619]: Finished loading, compiling and executing 2 rules
+Oct  7 11:59:13 jenkins polkitd[619]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct  7 11:59:19 jenkins sshd[815]: Server listening on 0.0.0.0 port 22.
+Oct  7 11:59:19 jenkins sshd[815]: Server listening on :: port 22.
+Oct  7 11:59:19 jenkins runuser: pam_unix(runuser:session): session opened for user jenkins by (uid=0)
+Oct  7 11:59:28 jenkins runuser: pam_unix(runuser:session): session closed for user jenkins
+Oct  7 12:00:53 jenkins login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct  7 12:00:53 jenkins login: ROOT LOGIN ON tty1
+Oct  7 12:01:22 jenkins sshd[1030]: Accepted password for root from 192.168.0.101 port 60889 ssh2
+Oct  7 12:01:22 jenkins sshd[1030]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct  8 11:11:38 jenkins polkitd[621]: Loading rules from directory /etc/polkit-1/rules.d
+Oct  8 11:11:38 jenkins polkitd[621]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct  8 11:11:38 jenkins polkitd[621]: Finished loading, compiling and executing 2 rules
+Oct  8 11:11:38 jenkins polkitd[621]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct  8 11:11:44 jenkins sshd[819]: Server listening on 0.0.0.0 port 22.
+Oct  8 11:11:44 jenkins sshd[819]: Server listening on :: port 22.
+Oct  8 11:11:44 jenkins runuser: pam_unix(runuser:session): session opened for user jenkins by (uid=0)
+Oct  8 11:11:49 jenkins login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct  8 11:11:49 jenkins login: ROOT LOGIN ON tty1
+Oct  8 11:11:53 jenkins runuser: pam_unix(runuser:session): session closed for user jenkins
+Oct  8 11:12:36 jenkins sshd[974]: Accepted password for root from 192.168.1.6 port 62639 ssh2
+Oct  8 11:12:36 jenkins sshd[974]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct  8 11:12:42 jenkins sshd[985]: Connection closed by 192.168.1.6 [preauth]
+Oct  8 11:18:31 jenkins sshd[974]: pam_unix(sshd:session): session closed for user root
+Oct  8 12:17:05 jenkins polkitd[622]: Loading rules from directory /etc/polkit-1/rules.d
+Oct  8 12:17:05 jenkins polkitd[622]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct  8 12:17:06 jenkins polkitd[622]: Finished loading, compiling and executing 2 rules
+Oct  8 12:17:06 jenkins polkitd[622]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct  8 12:17:11 jenkins sshd[819]: Server listening on 0.0.0.0 port 22.
+Oct  8 12:17:11 jenkins sshd[819]: Server listening on :: port 22.
+Oct  8 12:17:11 jenkins runuser: pam_unix(runuser:session): session opened for user jenkins by (uid=0)
+Oct  8 12:17:20 jenkins login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct  8 12:17:20 jenkins login: ROOT LOGIN ON tty1
+Oct  8 12:17:21 jenkins runuser: pam_unix(runuser:session): session closed for user jenkins
+Oct  8 12:20:14 jenkins polkitd[622]: Registered Authentication Agent for unix-process:1029:20278 (system bus name :1.14 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  8 22:45:58 jenkins polkitd[620]: Loading rules from directory /etc/polkit-1/rules.d
+Oct  8 22:45:58 jenkins polkitd[620]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct  8 22:45:58 jenkins polkitd[620]: Finished loading, compiling and executing 2 rules
+Oct  8 22:45:58 jenkins polkitd[620]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct  8 22:46:04 jenkins sshd[822]: Server listening on 0.0.0.0 port 22.
+Oct  8 22:46:04 jenkins sshd[822]: Server listening on :: port 22.
+Oct  8 22:46:04 jenkins runuser: pam_unix(runuser:session): session opened for user jenkins by (uid=0)
+Oct  8 22:46:12 jenkins runuser: pam_unix(runuser:session): session closed for user jenkins
+Oct  8 22:46:40 jenkins login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct  8 22:46:40 jenkins login: ROOT LOGIN ON tty1
+Oct  8 22:47:10 jenkins sshd[1018]: Connection closed by 192.168.0.100 [preauth]
+Oct  8 22:48:25 jenkins sshd[1020]: Accepted password for root from 192.168.0.100 port 52831 ssh2
+Oct  8 22:48:25 jenkins sshd[1020]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct  8 23:21:40 jenkins su: pam_unix(su:session): session opened for user jenkins by root(uid=0)
+Oct  8 23:21:40 jenkins su: pam_unix(su:session): session closed for user jenkins
+Oct  8 23:21:50 jenkins su: pam_unix(su-l:session): session opened for user jenkins by root(uid=0)
+Oct  8 23:21:50 jenkins su: pam_unix(su-l:session): session closed for user jenkins
